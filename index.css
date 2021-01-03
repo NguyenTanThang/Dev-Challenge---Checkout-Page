@@ -1,0 +1,400 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+.img-fluid {
+    width: 100%;
+}
+
+.container {
+    padding-left: 20px;
+    padding-right: 20px;
+    max-width: 1080px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.wrapper {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.btn {
+    padding: 15px 30px;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.btn-primary {
+    color: #FFF;
+    background-color: #F2994A;
+    border: 1px solid #F2994A;
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+    color: #F2994A;
+    background-color: #FFF;
+}
+
+/*Checkout*/
+.checkout__main .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.checkout-main__contact {
+    flex: 50%;
+    max-width: 50%;
+}
+
+.checkout-main__details {
+    flex: 40%;
+    max-width: 40%;
+}
+
+.input-group {
+    position: relative;
+}
+
+.input-group-icon {
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    transform: translate(-50%, -50%);
+    z-index: 3;
+}
+
+.input-group-icon span {
+    color: #828282;
+}
+
+.input-group-control input,
+.input-group-control select {
+    padding-left: 50px;
+    font-size: 1rem;
+    padding-bottom: 17px;
+}
+
+.form-control,
+.custom-select {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #828282;
+    border-radius: 12px;
+    outline: none;
+}
+
+.form-control {
+    color: #333;
+}
+
+.custom-select {
+    color: #828282;
+}
+
+.styled-select {
+    -moz-appearance: none;
+    /* Firefox */
+    -webkit-appearance: none;
+    /* Safari and Chrome */
+    appearance: none;
+}
+
+.select-icon {
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    z-index: 3;
+    background-color: #E0E0E0;
+    border-radius: 4px;
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    pointer-events: none;
+}
+
+.select-icon span {
+    line-height: 30px;
+}
+
+/*Checkout Header*/
+.checkout__header {
+    margin-bottom: 50px;
+}
+
+/*Checkout Form*/
+#contact-form label {
+    margin-bottom: 10px;
+    display: inline-block;
+    color: #4F4F4F;
+    font-size: 0.9rem;
+}
+
+#contact-form .form-group {
+    margin-bottom: 20px;
+}
+
+.checkout-main-contact__group h4 {
+    margin-bottom: 20px;
+    font-size: 1.1rem;
+    color: #333;
+}
+
+.checkout-main-contact__information {
+    margin-bottom: 50px;
+}
+
+.flex-form-group {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.flex-form-group .form-group {
+    flex: 48%;
+    max-width: 48%;
+}
+
+.flex-form-group .form-group .input-group-icon {
+    left: 10%;
+}
+
+.checkout-main-contact__footer {
+    text-align: right;
+}
+
+/*Checkout*/
+.checkout-main__details {
+    background: #F2F2F2;
+    border-radius: 12px;
+    width: 100%;
+    padding: 20px;
+}
+
+.details-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.details-item__image {
+    flex: 40%;
+    max-width: 40%;
+}
+
+.details-item__content {
+    flex: 55%;
+    max-width: 55%;
+}
+
+.details-item__content h4 {
+    color: #4E5150;
+    margin-bottom: 10px;
+}
+
+.details-item__content .price {
+    display: flex;
+    align-items: center;
+}
+
+.price .price-new {
+    font-size: 1rem;
+    color: #F2994A;
+}
+
+.price .price-old {
+    font-size: 0.7rem;
+    color: #4E5150;
+    margin-left: 10px;
+    text-decoration: line-through;
+}
+
+.details-item__image img {
+    border-radius: 13px;
+}
+
+.custom-number-input {
+    margin-top: 30px;
+    padding: 10px;
+    border: 1px solid #828282;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 50%;
+}
+
+.custom-number-input__minus,
+.custom-number-input__plus {
+    width: 20px;
+    height: 20px;
+    background: #E0E0E0;
+    border-radius: 4px;
+    text-align: center;
+    color: #828282;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.custom-number-input__minus:hover,
+.custom-number-input__plus:hover {
+    color: #000;
+}
+
+.checkout-main-details__footer {
+    padding-top: 50px;
+}
+
+.checkout-details-footer__item {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top: 1px solid #BDBDBD;
+}
+
+.checkout-details-footer__item:last-child {
+    padding-bottom: 0px;
+}
+
+.checkout-details-footer__item h6,
+.checkout-details-footer__item h4 {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+/*Footer*/
+footer {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+footer p {
+    color: #A9A9A9;
+}
+
+/*Checkbox*/
+.checkbox-container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 1rem;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.checkbox-container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: transparent;
+    border: 1px solid #828282;
+    border-radius: 4px;
+}
+
+/* On mouse-over, add a grey background color */
+.checkbox-container:hover input~.checkmark {
+    background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.checkbox-container input:checked~.checkmark {
+    background-color: #F2994A;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+.checkbox-container input:checked~.checkmark:after {
+    display: block;
+    background-color: #F2994A;
+}
+
+/* Style the checkmark/indicator */
+.checkbox-container .checkmark:after {
+    left: 5px;
+    top: 0;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+@media screen and (min-width: 320px) and (max-width: 1024px) {
+    .flex-form-group .form-group {
+        flex: 100%;
+        max-width: 100%;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .checkout__main .container {
+        flex-direction: column-reverse;
+        justify-content: space-around;
+    }
+    
+    .checkout-main__contact {
+        flex: 100%;
+        max-width: 100%;
+    }
+    
+    .checkout-main__details {
+        flex: 100%;
+        max-width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .input-group-icon {
+        left: 8%;
+        top: 52%;
+    }
+
+    .custom-number-input {
+        max-width: 80%;
+        margin-top: 20px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .details-item__content h4 {
+        font-size: 0.9rem;
+    }
+
+    .custom-number-input {
+        max-width: 80%;
+        margin-top: 10px;
+    }
+}
